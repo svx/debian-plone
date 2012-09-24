@@ -2,7 +2,9 @@
 Install Plone
 ==================
 
-Install and Setup Plone
+Install and Setup `Plone`_
+
+At the moment this is based on `Plone`_ 4.1.x with python2.6, I need to upgrade this to `Plone`_ 4.2.x with python2.7
 
 .. contents:: :local:
 
