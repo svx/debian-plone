@@ -93,7 +93,7 @@ Login as ploneuser::
 
     ssh ploneuser@host
 
-Create a Directory with the name bin in /home/ploneuser::
+Create a Directory with the name *bin* in /home/ploneuser::
 
     mkdir bin
 
@@ -107,11 +107,45 @@ Since I am lazy I prefer my own Wrapper Script so let's download that::
     chmod +x mkenv26.sh
 
 
+Create a Directory with the name *sites* in /home/ploneuser::
 
-Setup Dir Structure
---------------------
+    mkdir sites
 
+Change into that Dir.::
 
+    cd sites
+
+Create a Virtual-Environment 
+
+    mkenv26.sh www.example.com
+
+**Make sure that ~/bin is in your path !**
+
+After that is done change into that dir::
+
+    cd www.example.com
+
+Clone your Project for example from github::
+
+    git clone git://github.com/svx/Plone-Buildout-Example.git buildout
+
+Activate your Virtual-Environment and run Buildout::
+-----------------------------------------------------
+
+    source bin/activate
+    cd buildout
+
+    vim [<- choose the editor of your choise] buildout.cfg
+
+    [buildout]
+    extends = config/development.cfg
+
+    python bootstrap.py
+    bin/buildout
+
+And start it with::
+
+    bin/instance fg
 
 
 
