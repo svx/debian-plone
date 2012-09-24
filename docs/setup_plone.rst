@@ -83,20 +83,34 @@ And restart ssh::
 **Make sure that you are always logged in with a second Terminal, in case something goes wrong**
 
 
-..todo::
-
-    a couple of words about deploying that with for example fabric
-
-check if user can login in, check user permissions and ssh permissions .....
 
 Setup Virtual-Environment
 -------------------------
-- create $USER/bin
-- donwload script
+
+Always run Applications or in other words here `Plone` in its own `Virtual-Environment`_ 
+
+Login as ploneuser::
+
+    ssh ploneuser@host
+
+Create a Directory with the name bin in /home/ploneuser::
+
+    mkdir bin
+
+Change into that Dir.::
+
+    cd bin
+
+Since I am lazy I prefer my own Wrapper Script so let's download that::
+
+    wget https://raw.github.com/svx/mkenv26/master/mkenv26.sh .
+    chmod +x mkenv26.sh
+
+
 
 Setup Dir Structure
 --------------------
-- create $USER/sites/sitename
+
 
 
 
@@ -105,3 +119,4 @@ Setup Dir Structure
 .. _Plone: http://www.plone.org
 .. _Buildouts: http://www.buildout.org/
 .. _Unified Installer: http://plone.org/documentation/manual/installing-plone/installing-on-linux-unix-bsd/what-is-the-unified-installer
+.. _Virtual-Environment: http://pypi.python.org/pypi/virtualenv
