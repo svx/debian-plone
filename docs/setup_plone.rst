@@ -9,4 +9,27 @@ Install and Setup Plone
 Introduction
 --------------
 
-In :doc:`Install </docs/install>` I wrote about the Basic Installation of Debian, now I will move on to Install and Setup Plone
+Now that the Server is installed and running it is time to install and setup `Plone`_
+
+As I wrote before I [you should, too] make a difference between the Server and the Application Layer
+[more here]
+
+Install Packages we need
+--------------------------
+
+First we will install all Packages which we need to run `Plone`_,*please note, I will note make a difference between development/staging and production 
+environment on this writeup in real life you should, since it's always good to just install what you need and not more*
+
+Just use apt-get and install all we need::
+
+    apt-get install wget build-essential wv poppler-utils python2.6-dev python-imaging libssl-dev libjpeg62-dev zlib1g-dev libreadline5-dev libxml2-dev python-libxml2 libxslt1-dev python-libxslt1 cython pkg-config libpcre3 libpcre3-dev xpdf-utils libreadline5 zlib1g  libjpeg62 libssl0.9.8 subversion cron groff-base wget lynx python-dev git-core python-virtualenv vim subversion-tools htop curl
+
+
+
+
+Setup User for Application [Plone]
+------------------------------------
+[here more]
+
+
+.. _Plone: http://www.plone.org
