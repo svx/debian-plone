@@ -113,9 +113,6 @@ Enter your passphrase, and provided host is configured to allow key-based logins
 
 
 
-
-
-
 There are some packages, which I always install after my Basic Install is finished:
 
     - `smartmontools`_ 
@@ -184,9 +181,6 @@ And restart ssh::
 
 
 
-..Todo::
-
-    ssh
 
 
 
