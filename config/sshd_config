@@ -51,7 +51,7 @@ ChallengeResponseAuthentication no
 PasswordAuthentication no
 
 # Allow Users
-AllowUsers $Username
+AllowUsers $Username ploneuser
 
 
 # Kerberos options
