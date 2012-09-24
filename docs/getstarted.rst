@@ -17,6 +17,9 @@ About Setups
 -------------
 
 It does not matter if you install a server for `Plone`_ or an other Application, use always consistent setups/installs.
+
+Make a difference between Server and Application !
+
 You always should thing about longterm setups, so thing about the future, this will make it easier if you change or upgrade your 
 Application.
 Keep also in mind that you have to take care about Hardware failure and Disk space for example.
@@ -28,9 +31,11 @@ Keep also in mind that you have to take care about Hardware failure and Disk spa
 
 The next point which you will have to keep in mind, especially if your Server is located in a Datacenter and not in house, is physically access.
 There are situations where you need to have access to server, this *will* happen at some point.
+
 Depending on your setup and the situation of course, if there is really a Hardware failure you will have to go [depends of course on your service contract],
 but sometimes there are other things happened like boot loader failure after an upgrade [you should always try to upgrade you test server first].Or by accident you did 
 a shutdown and not a reboot [it happens to all of us...].
+
 To save you time, nerves and money use tools like `IPMI`_, further is it always handy to have a boot medium available, there are different ways to solve that.
 
     - `PXE`_
