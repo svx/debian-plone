@@ -63,7 +63,11 @@ edit */etc/apt/apt.conf.d/50unattended-upgrades:*::
 
     Unattended-Upgrade::Mail "$ADMIN@$EXAMPLE.COM";
 
+..Todo::
 
+    ssh
+    admin user
+    sudo
 
 .. _Debian: http://www.debian.org
 .. _Virtualization: http://en.wikipedia.org/wiki/Virtualization
