@@ -50,6 +50,27 @@ and now create a user which we will use for `Plone`_ [ploneuser]::
     useradd ploneuser -m -s /bin/bash
     passwd ploneuser
 
+
+The key you need to transfer to the host is the public one. If you can log in to a computer over SSH using a password, you can transfer your RSA key by doing the following from your own computer:::
+
+    ssh-copy-id <ploneuser>@<host>
+
+Where <username> and <host> should be replaced by your username and the name of the computer you're transferring your key to.
+
+Due a bug, you cannot specify a port other than the standard port 22. You can work around this by issuing the command like this: ssh-copy-id "<ploneuser>@<host> -p <port_nr>". If you are using the standard port 22, you can ignore this tip.
+
+You can make sure this worked by doing:::
+
+    ssh <ploneuser>@<host>
+
+You should be prompted for the passphrase for your key:::
+
+    Enter passphrase for key '/home/<user>/.ssh/id_rsa':
+
+Enter your passphrase, and provided host is configured to allow key-based logins, you should then be logged in as usual.
+
+
+
 Allow this user in sshd_config to login
 
 Change Allow Users to::
@@ -66,7 +87,6 @@ And restart ssh::
 
 ..todo::
 
-    - add user to ssh
     a couple of words about deploying that with for example fabric
 
 check if user can login in, check user permissions and ssh permissions .....
