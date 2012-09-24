@@ -4,9 +4,7 @@ Install Plone
 
 Install and Setup `Plone`_
 
-..todo::
-
-    add a few words about different installer I am not using the unified installer
+This Writeup is **not** based on the `Unified Installer`_, it is based on your own `Buildouts`_ .
 
 At the moment this is based on `Plone`_ 4.1.x with python2.6, I need to upgrade this to `Plone`_ 4.2.x with python2.7
 
@@ -105,3 +103,5 @@ Setup Dir Structure
 
 
 .. _Plone: http://www.plone.org
+.. _Buildout: http://www.buildout.org/
+.. _Unified Installer: http://plone.org/documentation/manual/installing-plone/installing-on-linux-unix-bsd/what-is-the-unified-installer
