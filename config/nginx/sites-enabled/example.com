@@ -8,7 +8,7 @@
 #	server 127.0.0.1:9081;
 #}
 
-# atm we use ha-proxy for load balancing 
+# atm we use ha-proxy for loadbalancing 
 
 
 server {
