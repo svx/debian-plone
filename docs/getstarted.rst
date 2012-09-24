@@ -46,5 +46,5 @@ I for example use an combination of `IPMI`_ and `PXE`_ over `VPN`_ and an always
 .. _lvm: http://en.wikipedia.org/wiki/Logical_Volume_Manager_(Linux)
 .. _raid: http://http://en.wikipedia.org/wiki/RAID
 .. _IPMI: http://en.wikipedia.org/wiki/Intelligent_Platform_Management_Interface
-.. _pxe: http://http://en.wikipedia.org/wiki/Preboot_Execution_Environment
+.. _PXE: http://http://en.wikipedia.org/wiki/Preboot_Execution_Environment
 .. _VPN: http://http://en.wikipedia.org/wiki/OpenVPN
