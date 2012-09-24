@@ -28,6 +28,12 @@ vim dotdeb.list::
     apt-get update
     apt-get install nginx
 
+Configuration
+---------------
+nothing special here, just check the config example `files <https://github.com/svx/conf2012/blob/master/config/nginx/>`_
+
+there is way more possible here but this is out of scope right now 
+
 .. _Plone: http://www.plone.org
 .. _Nginx: http://nginx.org/
 .. _Webserver: http://en.wikipedia.org/wiki/Comparison_of_web_server_software
