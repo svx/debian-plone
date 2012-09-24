@@ -52,7 +52,7 @@ For more info just do::
 
 Upload the $User key to the server
 
-Using key based logins with ssh is generally considered more secure than using plain password logins. This section of the guide will explain the process of generating a set of public/private RSA keys, and using them for logging into your Ubuntu computer(s) via OpenSSH.
+Using key based logins with ssh is generally considered more secure than using plain password logins. This section of the guide will explain the process of generating a set of public/private RSA keys, and using them for logging into your server/computer(s) via OpenSSH.
 
 The first step involves creating a set of RSA keys for use in authentication.
 
@@ -160,7 +160,7 @@ Edit */etc/apt/apt.conf.d/50unattended-upgrades:*::
 
 SSH
 ---
-I like to disable root access in my ssh configs and only give access to allowed $Users, an example is under [configs/ssh-make this a link]
+I like to disable root access in my ssh configs and only give access to allowed $Users, an example is under `Config <https://github.com/svx/conf2012/blob/master/config/sshd_config>`_
 
 Edit /etc/ssh/sshd/sshd_config::
 
