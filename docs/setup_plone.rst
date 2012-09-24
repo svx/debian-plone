@@ -103,5 +103,5 @@ Setup Dir Structure
 
 
 .. _Plone: http://www.plone.org
-.. _Buildout: http://www.buildout.org/
+.. _Buildouts: http://www.buildout.org/
 .. _Unified Installer: http://plone.org/documentation/manual/installing-plone/installing-on-linux-unix-bsd/what-is-the-unified-installer
