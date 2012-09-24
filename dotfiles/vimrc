@@ -1,0 +1,78 @@
+call pathogen#infect() 
+colorscheme molokai
+syntax on
+set t_Co=256
+set number
+filetype plugin on
+
+" indentation
+set autoindent
+set softtabstop=4 
+set expandtab
+" ""set textwidth=79
+set tabstop=8
+set shiftwidth=4
+set autoindent
+autocmd FileType python set omnifunc=pythoncomplete#Complete
+
+" Autocommands {
+     "Python {
+       au BufRead,BufNewFile *.py match ErrorMsg '\%>80v.\+'
+"             "}
+"             "}
+"
+
+"statusline
+set laststatus=2
+if has('statusline')
+set statusline=%<%f\ 
+set statusline+=%w%h%m%r 
+set statusline+=%{fugitive#statusline()}
+set statusline+=\ [%{&ff}/%Y]  
+set statusline+=\ [%{getcwd()}]
+set statusline+=%=%-14.(Line:\ %l\ of\ %L\ [%p%%]\ -\ Col:\ %c%V%)
+endif
+"
+nmap <F8> :TagbarToggle<CR>
+
+" Show matching [] and {}
+set showmatch
+
+" Spell check on
+set spell spelllang=en_us
+setlocal spell spelllang=en_us
+
+" Toggle spelling with the F7 key
+nn <F7> :setlocal spell! spelllang=en_us<CR>
+imap <F7> <C-o>:setlocal spell! spelllang=en_us<CR>
+
+" Spelling
+highlight clear SpellBad
+highlight SpellBad term=standout ctermfg=1 term=underline cterm=underline
+highlight clear SpellCap
+highlight SpellCap term=underline cterm=underline
+highlight clear SpellRare
+highlight SpellRare term=underline cterm=underline
+highlight clear SpellLocal
+highlight SpellLocal term=underline cterm=underline
+
+" where it should get the dictionary files
+let g:spellfile_URL = 'http://ftp.vim.org/vim/runtime/spell'
+
+" Those options highlight and underline misspelled or unrecognized words.
+" Some keyboard shortcuts to navigate and correct words
+
+
+map t :NERDTreeToggle<CR>
+"autocmd vimenter * NERDTree
+autocmd vimenter * wincmd w
+
+let &titlestring = hostname() . "[vim(" . expand("%:t") . ")]"
+if &term == "screen"
+  set t_ts=^[k
+  set t_fs=^[\
+endif
+if &term == "screen" || &term == "xterm"
+  set title
+endif
+

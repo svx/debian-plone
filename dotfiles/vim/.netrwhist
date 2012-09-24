@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/home/svx/Dropbox/prodbuild'
+let g:netrw_dirhist_2='/home/svx/packages/foo-0.1/example-src/usr/share/example'
+let g:netrw_dirhist_3='/home/svx/Projects/docs.leftxs/buildout/docs-source'
+let g:netrw_dirhist_4='/home/svx/Projects/docs.leftxs.org/buildout/source/packages'
