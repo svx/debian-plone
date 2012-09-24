@@ -24,14 +24,49 @@ environment on this writeup in real life you should, since it's always good to j
 
 Just use apt-get and install all we need::
 
-    apt-get install wget build-essential wv poppler-utils python2.6-dev python-imaging libssl-dev libjpeg62-dev zlib1g-dev libreadline5-dev libxml2-dev python-libxml2 libxslt1-dev python-libxslt1 cython pkg-config libpcre3 libpcre3-dev xpdf-utils libreadline5 zlib1g  libjpeg62 libssl0.9.8 subversion cron groff-base wget lynx python-dev git-core python-virtualenv vim subversion-tools htop curl
+    apt-get install wget build-essential wv poppler-utils python2.6-dev python-imaging libssl-dev libjpeg62-dev zlib1g-dev libreadline5-dev libxml2-dev python-libxml2 libxslt1-dev python-libxslt1 cython pkg-config libpcre3 libpcre3-dev xpdf-utils libreadline5 zlib1g  libjpeg62 libssl0.9.8 subversion cron groff-base wget lynx python-dev git-core python-virtualenv subversion-tools htop curl
 
 
+
+Depending on your Connection and your Server that will take a couple of moments ...
+
+After that is done it is time to setup a Application User
 
 
 Setup User for Application [Plone]
 ------------------------------------
-[here more]
+
+Use sudo to became root or your admin user::
+
+    sudo $admin #admin user
+    sudo -i     #root
+
+and now create a user which we will use for plone [ploneuser]
+
+    adduser ploneuser
+
+[here more about adduser]
+
+..todo::
+
+    - add user to ssh
+    - upload key from user
+    [explain that for remote user only we dont do that on localhosts]
+    a couple of words about deploying that with for example fabric
+
+check if user can login in, check user permissions and ssh permissions .....
+
+Setup Virtual-Environment
+-------------------------
+- create $USER/bin
+- donwload script
+
+Setup Dir Structure
+--------------------
+- create $USER/sites/sitename
+
+
+
 
 
 .. _Plone: http://www.plone.org
