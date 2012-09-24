@@ -31,6 +31,6 @@ vim dotdeb.list::
 .. _Plone: http://www.plone.org
 .. _Nginx: http://nginx.org/
 .. _Webserver: http://en.wikipedia.org/wiki/Comparison_of_web_server_software
-.. _Debian: htp://www.debian.org
+.. _Debian: http://www.debian.org
 .. _Debian Backports: http://backports-master.debian.org/
 .. _Dotdeb: http://www.dotdeb.org/
