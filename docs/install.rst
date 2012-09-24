@@ -1,5 +1,5 @@
 ==================
-Getting started
+Setup Debian
 ==================
 
 Basic Server Install
