@@ -125,20 +125,32 @@ After that is done change into that dir::
 
     cd www.example.com
 
+Activate your Virtual-Environment
+----------------------------------
+
+Just do::
+
+    source bin/activate
+
 Clone your Project for example from github::
 
     git clone git://github.com/svx/Plone-Buildout-Example.git buildout
 
-Activate your Virtual-Environment and run Buildout::
------------------------------------------------------
+Change into the right Directory::
 
-    source bin/activate
     cd buildout
+
+Run Buildout
+------------
+
+Tell buildout which config file to use::
 
     vim [<- choose the editor of your choise] buildout.cfg
 
     [buildout]
     extends = config/development.cfg
+
+Booststrap and Compile::
 
     python bootstrap.py
     bin/buildout
