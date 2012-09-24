@@ -45,17 +45,28 @@ Use sudo to became root or your admin user::
     sudo $admin #admin user
     sudo -i     #root
 
-and now create a user which we will use for plone [ploneuser]
+and now create a user which we will use for `Plone`_ [ploneuser]::
 
-    adduser ploneuser
+    useradd ploneuser -m -s /bin/bash
+    passwd ploneuser
 
-[here more about adduser]
+Allow this user in sshd_config to login
+
+Change Allow Users to::
+
+    # Allow Users
+    AllowUsers $Username ploneuser
+
+And restart ssh::
+
+    /etc/init.d/ssh restart
+
+**Make sure that you are always logged in with a second Terminal, in case something goes wrong**
+
 
 ..todo::
 
     - add user to ssh
-    - upload key from user
-    [explain that for remote user only we dont do that on localhosts]
     a couple of words about deploying that with for example fabric
 
 check if user can login in, check user permissions and ssh permissions .....

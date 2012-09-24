@@ -174,7 +174,7 @@ Edit /etc/ssh/sshd/sshd_config::
 
 And restart ssh::
 
-    /etc/inint.d/ssh restart
+    /etc/init.d/ssh restart
 
 **Make sure that you are always logged in with a second Terminal, in case something goes wrong**
     
