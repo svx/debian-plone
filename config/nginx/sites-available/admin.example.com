@@ -8,6 +8,8 @@
 #	server 127.0.0.1:9081;
 #}
 
+# atm we use ha-proxy for loadbalancing
+
 server {
 
 	listen		80;
@@ -45,7 +47,7 @@ server {
 	location / {
                 auth_basic            "Restricted";
                 auth_basic_user_file  /etc/nginx/htpasswd;
-                proxy_pass http://127.0.0.1:8904/VirtualHostBase/https/admin.example.com:443/vmd/VirtualHostRoot/;
+                proxy_pass http://127.0.0.1:8904/VirtualHostBase/https/admin.example.com:443/plone/VirtualHostRoot/;
                 #proxy_set_header Cookie null;
                 #proxy_set_header Authorization null;
                 #proxy_cache off;
