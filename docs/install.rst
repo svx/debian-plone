@@ -39,6 +39,29 @@ The Next step is to add the backports-repository to install `openntpd`_::
     apt-get install openntpd
 
 
+`Bitcron`_::
+
+    echo "deb http://ppa.launchpad.net/f-launchpad-bit-nl/bitcron/ubuntu lucid main" >> /etc/apt/sources.list.d/bitcron.list
+    apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 69F5F7DC09128850
+    apt-get update
+    apt-get install bitcron
+    mkdir /usr/share/doc/bitcron/examples && mv /etc/cronscripts/*cron /usr/share/doc/bitcron/examples
+
+Automatic updates
+Security updates will be done automatically and **only** Security updates::
+
+    echo "unattended-upgrades unattended-upgrades/enable_auto_updates boolean true" | debconf-set-selections
+    apt-get install unattended-upgrades
+
+edit */etc/apt/apt.conf.d/50unattended-upgrades:*::
+
+    Unattended-Upgrade::Allowed-Origins {
+        "${distro_id} stable";
+        "${distro_id} ${distro_codename}-security";
+    };
+
+    Unattended-Upgrade::Mail "$ADMIN@$EXAMPLE.COM";
+
 
 
 .. _Debian: http://www.debian.org
@@ -49,3 +72,4 @@ The Next step is to add the backports-repository to install `openntpd`_::
 .. _Handbook: http://debian-handbook.info/browse/stable/
 .. _smartmontools: http://en.wikipedia.org/wiki/Smartmontools
 .. _openntpd: http://www.openntpd.org/
+.. _Bitcron: https://launchpad.net/~f-launchpad-bit-nl/+archive/bitcron
