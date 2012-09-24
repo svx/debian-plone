@@ -48,6 +48,7 @@ The Next step is to add the backports-repository to install `openntpd`_::
     mkdir /usr/share/doc/bitcron/examples && mv /etc/cronscripts/*cron /usr/share/doc/bitcron/examples
 
 Automatic updates
+
 Security updates will be done automatically and **only** Security updates::
 
     echo "unattended-upgrades unattended-upgrades/enable_auto_updates boolean true" | debconf-set-selections
