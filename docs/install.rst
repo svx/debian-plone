@@ -160,7 +160,7 @@ Edit */etc/apt/apt.conf.d/50unattended-upgrades:*::
 
 SSH
 ---
-I like to disable root access in my ssh configs and only give access to allowed $Users, an example is under `Config <https://github.com/svx/conf2012/blob/master/config/sshd_config>`_
+I like to disable root access in my ssh configs and only give access to allowed $Users, an example is under `Config <https://github.com/svx/conf2012/blob/master/config/>`_
 
 Edit /etc/ssh/sshd/sshd_config::
 
