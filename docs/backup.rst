@@ -2,7 +2,7 @@
 Backup
 ===========
 
-Making backups is one of the main responsibilities of any administrator, but it is a complex subject, involving powerful tools which are often difficult to master. 
+Making backups is one of the main responsibilities of any administrator besides `Monitoring <https://github.com/svx/conf2012/blob/master/docs/monitoring.rst>`_, but it is a complex subject, involving powerful tools which are often difficult to master. 
 
 .. contents:: :local:
 
@@ -16,7 +16,7 @@ Many programs exist, such as `amanda`_, a client/server system featuring many op
 
 For more information, check the `Debian Handbook`_
 
-.. _amada: http://www.amanda.org/
+.. _amanda: http://www.amanda.org/
 .. _BackupPC: http://backuppc.sourceforge.net/
 .. _Debian: http://www.debian.org/
 .. _Debian Handbook: http://debian-handbook.info/browse/stable/
