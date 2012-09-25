@@ -16,13 +16,21 @@ Deploy Tools
 Lets start with a short overview, of course that are not all Tools/Possibilities:
 
     `Puppet`_
+
     `Fabric`_
+    
     `Chef`_
+    
     `CFEngine`_
+    
     `Slaughter`_
+    
     `Salt`_
+    
     `Batou`_
+    
     `Distribution Packages`_
+    
     `Hostout`_
 
 
