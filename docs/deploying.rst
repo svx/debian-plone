@@ -15,15 +15,15 @@ Deploy Tools
 
 Lets start with a short overview, of course that are not all Tools/Possibilities::
 
-    - `Puppet`_
-    - `Fabric`_
-    - `Chef`_
-    - `CFEngine`_
-    - `Slaughter`_
-    - `Salt`_
-    - `Batou`_
-    - `Distribution Packages`_
-    - `Hostout`_
+    `Puppet`_
+    `Fabric`_
+    `Chef`_
+    `CFEngine`_
+    `Slaughter`_
+    `Salt`_
+    `Batou`_
+    `Distribution Packages`_
+    `Hostout`_
 
 
 As I said there are more ways to to deploys, like for example Images, Snapshots and so on and so on, it also depends on your Infrastructure, your needs, your knowledge, and what you like or not...
