@@ -15,7 +15,7 @@ Basic rule, close everything and just open the ports that you will use !
 
 You should take your server security serious !
 
-For more information, check the chapter about security from `Debian Handbook`_
+For more information, check the chapter about security from the `Debian Handbook`_
 
 .. _Debian: http://www.debian.org/
 .. _Debian Handbook: http://debian-handbook.info/browse/stable/security.html
