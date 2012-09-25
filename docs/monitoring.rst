@@ -27,12 +27,19 @@ Monitoring Tools
 Like always there are lots of different Solutions for Monitoring
 
     `Munin`_
+
     `Nagios`_
+    
     `Icinga`_
+    
     `Monit`_
+    
     `Zenoss`_
+    
     `Zabbix`_
+    
     `Schinken`_
+    
     `Gangila`_
 
 These listed are only a few
