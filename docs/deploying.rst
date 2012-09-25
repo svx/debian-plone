@@ -13,7 +13,7 @@ Keep in mind that I like to prefer a split between Server and Application, that 
 Deploy Tools
 -------------
 
-Lets start with a short overview, of course that are not all Tools/Possibilities::
+Lets start with a short overview, of course that are not all Tools/Possibilities:
 
     `Puppet`_
     `Fabric`_
