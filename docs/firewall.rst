@@ -4,9 +4,7 @@ Firewall
 
 From the `Debian`_ Wiki about  `Firewalls <http://wiki.debian.org/Firewalls>`_:
 
-.. note::
-
-    A system designed to prevent unauthorized access to or from a private network.
+"A system designed to prevent unauthorized access to or from a private network."
 
 .. contents:: :local:
 
