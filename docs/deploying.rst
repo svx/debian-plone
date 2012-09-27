@@ -33,6 +33,7 @@ Lets start with a short overview, of course that are not all Tools/Possibilities
     
     `Hostout`_
 
+    `Cuisine`_
 
 As I said there are more ways to to deploys, like for example Images, Snapshots and so on and so on, it also depends on your Infrastructure, your needs, your knowledge, and what you like or not...
 
@@ -47,3 +48,4 @@ Most of the time it is a good idea to pick one, which is often used in the commu
 .. _Salt: http://saltstack.org/
 .. _Distribution Packages: http://wiki.debian.org/IntroDebianPackaging
 .. _Hostout: http://plone.org/products/collective.hostout
+.. _Cuisine: https://github.com/sebastien/cuisine
