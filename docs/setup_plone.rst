@@ -6,7 +6,7 @@ Install and Setup `Plone`_
 
 This Writeup is **not** based on the `Unified Installer`_, it is based on your own `Buildouts`_ .
 
-At the moment this is based on `Plone`_ 4.1.x with python2.6, I need to upgrade this to `Plone`_ 4.2.x with python2.7
+**At the moment this is based on `Plone`_ 4.1.x with python2.6, I need to upgrade this to `Plone`_ 4.2.x with python2.7**
 
 .. contents:: :local:
 
