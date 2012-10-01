@@ -21,7 +21,7 @@ As I wrote before I [you should, too] make a difference between the Server and t
 Install Packages we need
 --------------------------
 
-First we will install all Packages which we need to run `Plone`_,*please note, I will note make a difference between development/staging and production 
+First we will install all Packages which we need to run `Plone`_, **please note**, I will note make a difference between development/staging and production 
 environment on this writeup in real life you should, since it's always good to just install what you need and not more*
 
 Just use apt-get and install all we need::
