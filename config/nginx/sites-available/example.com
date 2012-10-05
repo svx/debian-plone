@@ -1,3 +1,6 @@
+#
+# THIS IS AN OLD CONGIG !! NEEDS TO BE REPLACED !!!
+#
 # You may add here your
 # server {
 #	...
