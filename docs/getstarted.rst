@@ -24,7 +24,7 @@ You always should thing about longterm setups, so thing about the future, this w
 Application.
 Keep also in mind that you have to take care about Hardware failure and Disk space for example.
 
-**You should always use:**
+**You should consider to use:**
 
     - `RAID`_
     - `LVM`_
