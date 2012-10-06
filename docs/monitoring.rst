@@ -42,6 +42,8 @@ Like always there are lots of different Solutions for Monitoring
     
     `Gangila`_
 
+    `ZPS`_
+
 These listed are only a few
 
 .. _Munin: http://munin-monitoring.org/
@@ -52,3 +54,4 @@ These listed are only a few
 .. _Zabbix: http://www.zabbix.com/
 .. _Schinken: http://www.shinken-monitoring.org/
 .. _Gangila: http://ganglia.sourceforge.net/
+.. _ZPS: https://github.com/ale-rt/rt.zps
