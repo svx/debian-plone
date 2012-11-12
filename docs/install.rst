@@ -134,10 +134,10 @@ The Next step is to add the backports-repository to install `openntpd`_::
 
 `Bitcron`_::
 
-    echo "deb http://ppa.launchpad.net/f-launchpad-bit-nl/bitcron/ubuntu lucid main" >> /etc/apt/sources.list.d/bitcron.list
-    apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 69F5F7DC09128850
+    echo "deb http://obit.bit.nl/ubuntu/lucid/bit-cron/ ./" >> /etc/apt/sources.list.d/bitcron.list
+    wget -qO- http://obit.bit.nl/ubuntu/obit.asc | apt-key add -
     apt-get update
-    apt-get install bitcron
+    apt-get install bit-cron
     mkdir /usr/share/doc/bitcron/examples && mv /etc/cronscripts/*cron /usr/share/doc/bitcron/examples
 
 Automatic updates
