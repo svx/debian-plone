@@ -1,4 +1,4 @@
-conf2012
+Readme
 ========
 
-example files about server administration and setups
+Example files about server administration and setups
