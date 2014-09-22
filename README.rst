@@ -3,4 +3,4 @@ Readme
 
 Example files about server administration and setups
 
-more updates soon !
+** THIS IS OUT OF DATE **
